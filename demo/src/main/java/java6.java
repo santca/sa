@@ -21,7 +21,7 @@ public class java6 {
         double avg4 = 0;
 
 
-        for(int num1 = 0;num1 <= 10000;num1++){
+        for(int num1 = 0;num1 <= 100;num1++){
             if(num1%2 == 0){
                 sum3 = sum3 + num1;
                 product3 = product3 * num1;
@@ -33,7 +33,7 @@ public class java6 {
                 count4++;
             }
         }
-        for(int num = 2;num <= 10000;num++){
+        for(int num = 2;num <= 100;num++){
             for(int k = 1;k <= num;k++){
                 if((num%k==0)&&(num!=k)){
                     sum1 = sum1 + num;
